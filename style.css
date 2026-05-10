@@ -1,0 +1,34 @@
+/* navbar styling */
+.navbar-brand {
+    font-family: "liebelotte", sans-serif;
+font-weight: 900;
+font-style: normal;
+font-size: 35px;
+}
+.nav-item {
+    font-family: "letter-gothic-recast", sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+
+/* text styling */
+h1,h2 {
+    font-family: "liebelotte", sans-serif;
+font-weight: 1000;
+font-style: normal;
+font-size: 50px;
+}
+img {
+    border-radius: 10px;
+}
+/* range input styling */
+#range4 {
+    background-image: url(imgs/zeroseRose.png);
+}
+
+/* fonts for later
+    zeroni font
+        font-family: "jumble", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+*/
