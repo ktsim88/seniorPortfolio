@@ -22,9 +22,62 @@ img {
     border-radius: 10px;
 }
 /* range input styling */
-#range4 {
-    background-image: url(imgs/zeroseRose.png);
+/* code below is from chatgpt */
+.form-range::-webkit-slider-thumb {
+    background: url("imgs/zeroseRose.png");
+    background-size: cover;
+    background-position: center;
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+    appearance: none;
+    -webkit-appearance: none;
+
+    margin-top: -19px;
 }
+
+.form-range::-moz-range-thumb {
+    background: url("imgs/zeroseRose.png");
+    background-size: cover;
+    background-position: center;
+
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+}
+.form-range::-webkit-slider-runnable-track {
+    background-color: rgba(0, 0, 255, 0);
+    background-size: cover;
+    height: 12px;
+}
+
+.form-range::-moz-range-track {
+    background-color: rgba(0, 0, 255, 0);
+    background-size: cover;
+    height: 12px;
+}
+.form-range {
+    appearance: none;
+    -webkit-appearance: none;
+
+    width: 100%;
+    height: 12px;
+    border-radius: 20px;
+
+    background: linear-gradient(
+        to right,
+        #A9D6FF 0%,
+        #A9D6FF 0%,
+        #E5E7EB 0%,
+        #E5E7EB 100%
+    );
+
+    outline: none;
+}
+/* end of chatgpt code */
 
 /* fonts for later
     zeroni font

@@ -17,7 +17,7 @@
         <link rel="stylesheet" href="https://use.typekit.net/zkp7qte.css" />
     </head>
 
-    <body class="my-3">
+    <body>
         <header>
             <!-- place navbar here -->
              <nav class="navbar navbar-expand-md navbar-light bg-light">
@@ -116,17 +116,27 @@
         <footer>
             <!-- place footer here -->
         </footer>
+        <!-- from chatgpt -->
         <script>
-  // This is an example script, please modify as needed
-  const rangeInput = document.getElementById('range4');
-  const rangeOutput = document.getElementById('rangeValue');
+const slider = document.getElementById("range4");
 
-  // Set initial value
-  rangeOutput.textContent = rangeInput.value;
+function updateSlider() {
+    const value = (slider.value / slider.max) * 100;
 
-  rangeInput.addEventListener('input', function() {
-    rangeOutput.textContent = this.value;
-  });
+    slider.style.background = `
+        linear-gradient(
+            to right,
+            #A9D6FF 0%,
+            #A9D6FF ${value}%,
+            #E5E7EB ${value}%,
+            #E5E7EB 100%
+        )
+    `;
+}
+
+slider.addEventListener("input", updateSlider);
+
+updateSlider();
 </script>
         <!-- Bootstrap JavaScript Bundle (includes Popper) -->
         <script
