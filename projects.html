@@ -66,9 +66,10 @@
     </header>
     <main
       class="container text-center align-items-center justify-content-center"
+      id="app"
     >
-      <h1>Projects</h1>
       <div id="miniSite">
+        <h1>Projects</h1>
         <div class="row">
           <div class="col-md-2 col-sm-12">
             <div
@@ -101,12 +102,12 @@
           <div class="col-md-10 col-sm-12">
             <!-- Project icons, will be generated using vue later -->
 
-<a class="btn" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+<a class="btn" role="button" v-for="zeroniIcon in zeroniIcons">
   
-  <div class="card zeroniCard">
-  <img src="imgs/zeroni1.png" class="card-img-top" alt="...">
+  <div class="zeroniCard">
+  <img :src="zeroniIcon.zeroni" class="card-img-top zeroniPics" alt="...">
   <div class="card-body">
-    <h5 class="card-title">Project 1</h5>  
+    <h5 class="card-title">{{ zeroniIcon.projectName }}</h5>  
 </div>
 </div>
 </a>
@@ -114,26 +115,7 @@
 
             
           </div>
-          <!-- offcanvas that will show based on selection , will be generated using vue later -->
-          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-  <div class="offcanvas-header">
-    <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
-    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-  </div>
-  <div class="offcanvas-body">
-    <div>
-      <div class="card">
-                <img src="https://picsum.photos/id/1025/600/400" alt="">
-                <div class="card-body">
-                    <h5 class="card-title">Project title 1</h5>
-                        <h6 class="card-subtitle mb-2 text-body-secondary">Grade 10</h6>
-
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit necessitatibus reprehenderit similique ipsum, in quasi laborum earum quaerat aperiam modi quia sapiente debitis cupiditate error! Asperiores veritatis accusamus soluta officia.</p>
-                </div>
-            </div>
-    </div>
-  </div>
-</div>
+          
         </div>
       </div>
 
@@ -199,19 +181,19 @@
           <li class="ms-3">
             <a class="text-body-secondary" href="#" aria-label="Instagram"
               ><svg class="bi" width="24" height="24" aria-hidden="true">
-                <use xlink:href="#instagram"></use></svg
-            ></a>
+                <use xlink:href="#instagram"></use></svg></a>
           </li>
           <li class="ms-3">
             <a class="text-body-secondary" href="#" aria-label="Facebook"
               ><svg class="bi" width="24" height="24">
-                <use xlink:href="#facebook"></use></svg
-            ></a>
+                <use xlink:href="#facebook"></use></svg>
+              </a>
           </li>
         </ul>
       </footer>
     </footer>
     <!-- Bootstrap JavaScript Bundle (includes Popper) -->
+     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
