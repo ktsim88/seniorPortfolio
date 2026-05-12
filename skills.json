@@ -1,32 +1,33 @@
 [
     {
-        "image": "imgs/zeroni1.png",
+        "image": "imgs/html.png",
         "title": "HTML",
-        "description": "something about language"
+        "description": "first language I learned, used to create the structure of web pages"
     },
     {
-        "image": "imgs/zeroni2.png",
+        "image": "imgs/css.png",
         "title": "CSS",
-        "description": "something about language"
+        "description": "used to style and layout web pages, making them visually appealing and responsive"
     },
     {
-        "image": "imgs/zeroni3.png",
+        "image": "imgs/js.png",
         "title": "JavaScript",
-        "description": "something about language"
+        "description": "used to add interactivity and dynamic behavior to web pages, allowing for features like animations, form validation, and user interactions"
     },
     {
-        "image": "imgs/zeroni4.png",
-        "title": "Python",
-        "description": "something about language"
+        "image": "imgs/jquery.png",
+        "title": "jQuery",
+        "description": "fast, small, and feature-rich JavaScript library that simplifies HTML document traversing, event handling, and animation"
     },
     {
-        "image": "imgs/zeroni5.png",
+        "image": "imgs/vue.png",
+        "title": "Vue.js",
+        "description": "progressive JavaScript framework for building user interfaces and single-page applications, known for its simplicity and flexibility"
+    },
+    {
+        "image": "imgs/java.png",
         "title": "Java",
-        "description": "something about language"
-    },
-    {
-        "image": "imgs/zeroni6.png",
-        "title": "C++",
-        "description": "something about language"
+        "description": "used to add interactivity and dynamic behavior to web pages, allowing for features like animations, form validation, and user interactions"
     }
+
 ]
