@@ -14,12 +14,16 @@ const app = Vue.createApp({
     }),
       fetch('skills.json').then(a => a.json()).then(json => {
         this.skills = json;
+      }),
+      fetch('websites.json').then(a => a.json()).then(json => {
+        this.websites = json;
       })
   },
   data() {
     return {
       zeroniIcons: [],
-      skills: []
+      skills: [],
+      websites: []
     }
    }
 })
