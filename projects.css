@@ -2,9 +2,6 @@
 body {
     background-color: #C2DCFF;
 }
-.row {
-    background-color: #FFAFCC;
-}
 
 /* navbar styling */
 .navbar-brand {
@@ -105,10 +102,27 @@ img {
     margin-top: -5px;
 }
 
-
 /* fonts for later
     zeroni font
         font-family: "jumble", sans-serif;
         font-weight: 400;
         font-style: normal;
 */
+/*buttons */
+.btn {
+    font-family: "letter-gothic-recast", sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+.close {
+    background-color: rgba(255, 0, 0, 0.8);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 90px;
+}
+.close:hover {    background-color: rgba(255, 0, 0, 1);
+}   
+/* range input styling */

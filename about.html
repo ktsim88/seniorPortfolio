@@ -5,7 +5,7 @@
         <!-- Required meta tags -->
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-
+<link rel="shortcut icon" href="imgs/KTLogo.PNG" type="image/x-icon">
         <!-- Bootstrap CSS v5.3.8 -->
         <link
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
@@ -63,12 +63,12 @@
         </div>
       </nav>
         </header>
-        <main class="container text-center align-items-center justify-content-center">
+        <main id="app" class="container text-center align-items-center justify-content-center">
           <!-- about me section -->
           <div class="row my-3">
             <h1 class="my-3">About Me</h1>
             <div class="col-md-6 col-sm-12">
-              <img src="imgs/seniorphoto1.png" alt="Profile Image" class="img-fluid"  width="50%" />
+              <img src="imgs/seniorphoto1.png" alt="Profile Image" class="img-fluid my-3"  width="50%" />
             </div>
             <div class="col-md-6 col-sm-12 my-auto">
               <p class="lead">I am a passionate web developer with a love for creating beautiful and functional websites.</p>
@@ -79,16 +79,16 @@
           <div class="row my-3">
             <h2 class="my-3">My Skills</h2>
             <!-- this will be generated using vue (will be implemented later) -->
-            <div class="col-md-4 col-sm-12">
-              <div class="card mb-3 p-1" style="max-width: 1700px; max-height: fit-content;">
-  <div class="row g-0">
+            <div class="col-md-4 col-sm-12 my-3" v-for="skill in skills">
+              <div class="card mb-3 p-2 " style="max-width: 1700px; max-height: fit-content;">
+  <div class="row g-0 skills" style="background-color: white;">
     <div class="col-4 my-auto">
-      <img src="imgs/zeroni1.png" class="img-fluid rounded-start mx-2" alt="...">
+      <img :src="skill.image" class="img-fluid rounded-start mx-2" alt="...">
     </div>
-    <div class="col-md-8">
+    <div class="col-8">
       <div class="card-body">
-        <h5 class="card-title">HTML</h5>
-        <p class="card-text">something about language</p>
+        <h5 class="card-title">{{ skill.title }}</h5>
+        <p class="card-text">{{ skill.description }}</p>
         
       </div>
     </div>
@@ -97,7 +97,7 @@
             </div>
           </div>
           <!-- my journey section    -->
-           <div class="row mx-3">
+           <div class="row">
             <h2 class="my-3">My Journey</h2>
                 <label for="range4" class="form-label">Example range</label>
                 <input type="range" class="form-range" min="0" max="4" value="0" id="range4">
@@ -117,6 +117,7 @@
             <!-- place footer here -->
         </footer>
         <!-- from chatgpt -->
+         <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
         <script>
 const slider = document.getElementById("range4");
 
@@ -138,6 +139,8 @@ slider.addEventListener("input", updateSlider);
 
 updateSlider();
 </script>
+     
+
         <!-- Bootstrap JavaScript Bundle (includes Popper) -->
         <script
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
