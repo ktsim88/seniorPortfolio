@@ -2,8 +2,10 @@
     {
         "name": "Luis von Ahn Page",
         "description": "Lorem ipsum dolor sit amet consectetur 'adipisicing elit. Voluptas quisquam, voluptatesque, voluptate, voluptatum voluptatibus voluptate voluptas",
+        "improvements": "Lorem ipsum dolor sit amet consectetur 'adipisicing elit. Voluptas quisquam, voluptatesque, voluptate, voluptatum voluptatibus voluptate voluptas",
         "images": ["imgs/luisVonAhn1.png", "imgs/luisVonAhn2.png", "imgs/luisVonAhn3.png"],
         "grade": 10,
+        "id": "carousel1",
         "link": "https://ktsimdesignertributepage-9039177.codehs.me/index.html"   
     },
     {
@@ -11,6 +13,7 @@
         "description": "Lorem ipsum dolor sit amet consectetur 'adipisicing elit. Voluptas quisquam, voluptatesque, voluptate, voluptatum voluptatibus voluptate voluptas",
         "images": ["imgs/karenCafe1.png", "imgs/karenCafe2.png", "imgs/karenCafe3.png"],
         "grade": 10,
+        "id": "carousel2",
         "link": "https://theexquisitecoffeehousekt-9954991.codehs.me/index.html"   
     }
 ]

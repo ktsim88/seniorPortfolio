@@ -30,8 +30,10 @@ font-weight: 1000;
 font-style: normal;
 font-size: 50px;
 }
-img {
+.pics, .info {
     border-radius: 10px;
+    border: solid white 5px;
+    box-shadow: 8px 8px 3.6px rgba(0, 0, 0, 0.253);
 }
 /* range input styling */
 /* code below is from chatgpt */

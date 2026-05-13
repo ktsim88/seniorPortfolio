@@ -119,30 +119,96 @@
         </div>
       </div>
       <div class="websiteShowcase">
-        <button type="button" class="btn btn-danger position-absolute top-0 end-0 close me-2" style="border-radius: 1000px;">Close</button>
-        <h1>Project 1</h1>
-        <div class="row">
+        <button type="button" class="btn btn-danger position-absolute top-0 end-0 close me-2" style="border-radius: 1000px;" @click="closeWebsiteShowcase()">Close</button>
+        
+        <div class="row my-3" v-for="project in websites" :key="project.id">
+          <h1>{{ project.name }}</h1>
+          
+          
           <div class="col-md-6 col-sm-12">
-            <img
-              src="https://picsum.photos/id/1025/600/400"
-              alt="Project 1"
-              class="img-fluid"
-            />
+            <div :id="project.id" class="carousel slide" data-bs-ride="carousel">
+              <ol class="carousel-indicators">
+                <li
+                  :data-bs-target="`#${project.id}`"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="First slide"
+                ></li>
+                <li
+                  :data-bs-target="`#${project.id}`"
+                  data-bs-slide-to="1"
+                  aria-label="Second slide"
+                ></li>
+                <li
+                  :data-bs-target="`#${project.id}`"
+                  data-bs-slide-to="2"
+                  aria-label="Third slide"
+                ></li>
+              </ol>
+              <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                  <img
+                    :src="project.images[0]"
+                    class="w-100 d-block"
+                    alt="First slide"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    :src="project.images[1]"
+                    class="w-100 d-block"
+                    alt="Second slide"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    :src="project.images[2]"
+                    class="w-100 d-block"
+                    alt="Third slide"
+                  />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                :data-bs-target="`#${project.id}`"
+                data-bs-slide="prev"
+              >
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                :data-bs-target="`#${project.id}`"
+                data-bs-slide="next"
+              >
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <div class="info">
+              <b class="my-3">
+                Completed in Grade {{ project.grade }}.
+              </b>
+            </div>
           </div>
           <div class="col-md-6 col-sm-12 my-auto">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
-              quisquam, voluptatesque, voluptate, voluptatum voluptatibus voluptate voluptas
-              voluptate voluptate. Voluptas quisquam, voluptatesque, voluptate, voluptatum voluptatibus voluptate voluptas
-              voluptate voluptate. Voluptas quisquam, voluptatesque, voluptate, voluptatum voluptatibus voluptate voluptas
-              voluptate voluptate. Voluptas quisquam, voluptatesque, voluptate, voluptatum voluptatibus voluptate voluptas
-              voluptate voluptate. Voluptas quisquam, voluptatesque, voluptate, voluptatum voluptatibus voluptate voluptas
-              voluptate voluptate. Voluptas quisquam, voluptatesque, voluptate, voluptatum voluptatibus voluptate voluptas
-              voluptate voluptate. Voluptas quisquam, voluptatesque, voluptate, voluptatum voluptatibus voluptate voluptas
-              voluptate voluptate. Voluptas quisquam, voluptatesque, voluptate, voluptatum voluptatibus voluptate voluptas
-              voluptate voluptate. Voluptas quisquam, voluptatesque, voluptate, voluptatum voluptatibus voluptate voluptas
-              voluptate voluptate.
+            <h2>Overall</h2>
+            <p class="info">
+              {{ project.description }}
+            </p>
+            <h2 class="my-2">Improvements</h2>
+            <p class="info">
+              <!-- Add improvement details here -->
+              {{ project.improvements }}
+            </p>
+            <button type="button" class="btn btn-primary my-3" @click="openWebsite(project.link)">
+            View Project
+          </button>
           </div>
+          
         </div>
         
         
