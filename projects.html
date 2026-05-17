@@ -68,7 +68,7 @@
       class="container text-center align-items-center justify-content-center"
       id="app"
     >
-      <div id="miniSite" class="d-none">
+      <div id="miniSite">
         <h1>Projects</h1>
         <div class="row">
           <div class="col-md-2 col-sm-12">
@@ -102,7 +102,7 @@
           <div class="col-md-10 col-sm-12">
             <!-- Project icons, will be generated using vue later -->
 
-<a class="btn" role="button" v-for="zeroniIcon in zeroniIcons">
+<a class="btn" role="button" v-for="zeroniIcon in zeroniIcons" @click="openWebsiteShowcase(zeroniIcon.site)">
   
   <div class="zeroniCard">
   <img :src="zeroniIcon.zeroni" class="card-img-top zeroniPics" alt="...">
@@ -118,10 +118,10 @@
           
         </div>
       </div>
-      <div class="websiteShowcase">
+      <div id="websiteShowcase" class="d-none">
         <button type="button" class="btn btn-danger position-absolute top-0 end-0 close me-2" style="border-radius: 1000px;" @click="closeWebsiteShowcase()">Close</button>
         
-        <div class="row my-3" v-for="project in websites" :key="project.id">
+        <div class="row my-3 d-none" v-for="project in websites" :key="project.id" :id="project.site">
           <h1>{{ project.name }}</h1>
           
           

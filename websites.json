@@ -6,14 +6,87 @@
         "images": ["imgs/luisVonAhn1.png", "imgs/luisVonAhn2.png", "imgs/luisVonAhn3.png"],
         "grade": 10,
         "id": "carousel1",
-        "link": "https://ktsimdesignertributepage-9039177.codehs.me/index.html"   
+        "link": "https://ktsimdesignertributepage-9039177.codehs.me/index.html",
+        "site": "web1"   
+    },
+    {
+        "name": "Cusco Information Site",
+        "description": "Lorem ipsum dolor sit amet consectetur 'adipisicing elit. Voluptas quisquam, voluptatesque, voluptate, voluptatum voluptatibus voluptate voluptas",
+        "improvements": "Lorem ipsum dolor sit amet consectetur 'adipisicing elit. Voluptas quisquam, voluptatesque, voluptate, voluptatum voluptatibus voluptate voluptas",
+        "images": ["imgs/cusco1.png", "imgs/cusco2.png", "imgs/cusco3.png"],
+        "grade": 10,
+        "id": "carousel2",
+        "link": "https://machupicchutravelktsim-1-9429935.codehs.me/index.html",
+        "site": "web2"   
     },
     {
         "name": "Karen's Exquisite Coffeehouse",
         "description": "Lorem ipsum dolor sit amet consectetur 'adipisicing elit. Voluptas quisquam, voluptatesque, voluptate, voluptatum voluptatibus voluptate voluptas",
+        "improvements": "Lorem ipsum dolor sit amet consectetur 'adipisicing elit. Voluptas quisquam, voluptatesque, voluptate, voluptatum voluptatibus voluptate voluptas",
         "images": ["imgs/karenCafe1.png", "imgs/karenCafe2.png", "imgs/karenCafe3.png"],
         "grade": 10,
-        "id": "carousel2",
-        "link": "https://theexquisitecoffeehousekt-9954991.codehs.me/index.html"   
+        "id": "carousel3",
+        "link": "https://theexquisitecoffeehousekt-9954991.codehs.me/index.html",
+        "site": "web3"   
+    },
+    {
+        "name": "Shamrock Hangman",
+        "description": "Lorem ipsum dolor sit amet consectetur 'adipisicing elit. Voluptas quisquam, voluptatesque, voluptate, voluptatum voluptatibus voluptate voluptas",
+        "improvements": "Lorem ipsum dolor sit amet consectetur 'adipisicing elit. Voluptas quisquam, voluptatesque, voluptate, voluptatum voluptatibus voluptate voluptas",
+        "images": ["imgs/hangman1.png", "imgs/hangman2.png", "imgs/hangman3.png"],
+        "grade": 11,
+        "id": "carousel4",
+        "link": "https://ktsim88.github.io/MarchSite/",
+        "site": "web4"   
+    },
+    {
+        "name": "Race to the Crown",
+        "description": "Lorem ipsum dolor sit amet consectetur 'adipisicing elit. Voluptas quisquam, voluptatesque, voluptate, voluptatum voluptatibus voluptate voluptas",
+        "improvements": "Lorem ipsum dolor sit amet consectetur 'adipisicing elit. Voluptas quisquam, voluptatesque, voluptate, voluptatum voluptatibus voluptate voluptas",
+        "images": ["imgs/rttc1.png", "imgs/rttc2.png", "imgs/rttc3.png"],
+        "grade": 11,
+        "id": "carousel5",
+        "link": "https://ktsim88.github.io/AprilSite/",
+        "site": "web5"
+    },
+    {
+        "name": "Cookie Run Kingdom Roster",
+        "description": "Lorem ipsum dolor sit amet consectetur 'adipisicing elit. Voluptas quisquam, voluptatesque, voluptate, voluptatum voluptatibus voluptate voluptas",
+        "improvements": "Lorem ipsum dolor sit amet consectetur 'adipisicing elit. Voluptas quisquam, voluptatesque, voluptate, voluptatum voluptatibus voluptate voluptas",
+        "images": ["imgs/crkRoster1.png", "imgs/crkRoster2.png", "imgs/crkRoster3.png"],
+        "grade": 11,
+        "id": "carousel6",
+        "link": "https://ktsim88.github.io/MaySite/",
+        "site": "web6"
+    },
+    {
+        "name": "Rutgers Information Site",
+        "description": "Lorem ipsum dolor sit amet consectetur 'adipisicing elit. Voluptas quisquam, voluptatesque, voluptate, voluptatum voluptatibus voluptate voluptas",
+        "improvements": "Lorem ipsum dolor sit amet consectetur 'adipisicing elit. Voluptas quisquam, voluptatesque, voluptate, voluptatum voluptatibus voluptate voluptas",
+        "images": ["imgs/rutgers1.png", "imgs/rutgers2.png", "imgs/rutgers3.png"],
+        "grade": 12,
+        "id": "carousel7",
+        "link": "https://ktsim88.github.io/collegeRecruitment/",
+        "site": "web7"
+    },
+    {
+        "name": "Course Planner",
+        "description": "Lorem ipsum dolor sit amet consectetur 'adipisicing elit. Voluptas quisquam, voluptatesque, voluptate, voluptatum voluptatibus voluptate voluptas",
+        "improvements": "Lorem ipsum dolor sit amet consectetur 'adipisicing elit. Voluptas quisquam, voluptatesque, voluptate, voluptatum voluptatibus voluptate voluptas",
+        "images": ["imgs/coursePlanner1.png", "imgs/coursePlanner2.png", "imgs/coursePlanner3.png"],
+        "grade": 12,
+        "id": "carousel8",
+        "link": "https://shagan742.github.io/CoursePlanner/",
+        "site": "web8"
+    },
+    {
+        "name": "stwabewee",
+        "description": "Lorem ipsum dolor sit amet consectetur 'adipisicing elit. Voluptas quisquam, voluptatesque, voluptate, voluptatum voluptatibus voluptate voluptas",
+        "improvements": "Lorem ipsum dolor sit amet consectetur 'adipisicing elit. Voluptas quisquam, voluptatesque, voluptate, voluptatum voluptatibus voluptate voluptas",
+        "images": ["imgs/stwabewee1.png", "imgs/stwabewee2.png", "imgs/stwabewee3.png"],
+        "grade": 12,
+        "id": "carousel9",
+        "link": "https://ktsim88.github.io/stwabewee/",
+        "site": "web9"
     }
 ]

@@ -1,12 +1,48 @@
 [
     {
         "zeroni": "imgs/zeroni1.png",
-        "projectName": "Project 1"
+        "projectName": "Luis von Ahn Tribute Page",
+        "site": "web1"
 
     },
     {
         "zeroni": "imgs/zeroni2.png",
-        "projectName": "Project 2"
-
+        "projectName": "Cusco Information Site",
+        "site": "web2"
+    },
+    {
+        "zeroni": "imgs/zeroni3.png",
+        "projectName": "Karen's Exquisite Coffeehouse",
+        "site": "web3"
+    },
+    {
+        "zeroni": "imgs/zeroni4.png",
+        "projectName": "Shamrock Hangman",
+        "site": "web4"
+    },
+    {
+        "zeroni": "imgs/zeroni5.png",
+        "projectName": "Race to the Crown",
+        "site": "web5"
+    },
+    {
+        "zeroni": "imgs/zeroni6.png",
+        "projectName": "Cookie Run Kingdom Roster",
+        "site": "web6"
+    },
+    {
+        "zeroni": "imgs/zeroni7.png",
+        "projectName": "Rutgers Information Site",
+        "site": "web7"
+    },
+    {
+        "zeroni": "imgs/zeroni8.png",
+        "projectName": "Course Planner",
+        "site": "web8"
+    },
+    {
+        "zeroni": "imgs/zeroni9.png",
+        "projectName": "stwabewee",
+        "site": "web9"
     }
 ]

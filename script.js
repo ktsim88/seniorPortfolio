@@ -32,9 +32,38 @@ const app = Vue.createApp({
       window.open(link, '_blank');
     },
     closeWebsiteShowcase() {
-      const showcase = document.querySelector('.websiteShowcase');
-      showcase.style.display = 'none';
-    }
+      const showcase = document.getElementById('websiteShowcase');
+      showcase.classList.add('d-none');
+      const miniSite = document.getElementById('miniSite');
+      miniSite.classList.remove('d-none');
+//from copilot, modified by me
+      // hide all projects
+      this.websites.forEach(p => {
+        const el = document.getElementById(p.site);
+        if (el) el.classList.add('d-none');
+      });
+    },
+    openWebsiteShowcase(site) {
+  const showcase = document.getElementById('websiteShowcase');
+  showcase.classList.remove('d-none');
+
+  const miniSite = document.getElementById('miniSite');
+  miniSite.classList.add('d-none');
+//from chatgpt, modified by me
+  // hide all projects first
+  this.websites.forEach(p => {
+    const el = document.getElementById(p.site);
+    if (el) el.classList.add('d-none');
+  });
+
+  // show selected project
+  const project = this.websites.find(p => p.site === site);
+
+  if (project) {
+    const projectElement = document.getElementById(project.site);
+    projectElement.classList.remove('d-none');
+  }
+}
    }
 })
 
