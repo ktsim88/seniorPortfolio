@@ -69,45 +69,53 @@
       id="app"
     >
       <div id="miniSite">
-        <h1>Projects</h1>
-        <div class="row">
-          <div class="col-md-2 col-sm-12">
+        <h1 class="my-3">Projects</h1>
+        <div class="row websiteSection">
+          <div class="col-md-2 col-sm-12 selector">
             <div
-              class="btn-group-vertical"
+              class="flex-sm-row flex-md-column d-flex align-items-center justify-content-center"
               role="group"
               aria-label="Vertical radio toggle button group"
             >
               <input
-                type="radio"
-                class="btn-check"
-                name="vbtn-radio"
-                id="vbtn-radio1"
-                autocomplete="off"
-                checked
-              />
-              <label class="btn btn-outline-danger" for="vbtn-radio1"
-                >Radio 1</label>
-              <input
-                type="radio"
-                class="btn-check"
-                name="vbtn-radio"
-                id="vbtn-radio2"
-                autocomplete="off"
-              />
-              <label class="btn btn-outline-danger" for="vbtn-radio2"
-                >Radio 2</label>
+  type="radio"
+  class="btn-check"
+  name="vbtn-radio"
+  id="vbtn-radio1"
+  autocomplete="off"
+  value="web"
+  v-model="currentSection"
+/>
+
+<label class="btn btn-outline-danger w-100" for="vbtn-radio1">
+  Web Projects
+</label>
+
+<input
+  type="radio"
+  class="btn-check"
+  name="vbtn-radio"
+  id="vbtn-radio2"
+  autocomplete="off"
+  value="other"
+  v-model="currentSection"
+/>
+
+<label class="btn btn-outline-danger w-100" for="vbtn-radio2">
+  Other Projects
+</label>
               
             </div>
           </div>
-          <div class="col-md-10 col-sm-12">
+          <div class="col-md-10 col-sm-12"  v-if="currentSection === 'web'" id="webProjects">
             <!-- Project icons, will be generated using vue later -->
 
 <a class="btn" role="button" v-for="zeroniIcon in zeroniIcons" @click="openWebsiteShowcase(zeroniIcon.site)">
   
-  <div class="zeroniCard">
+  <div class="zeroniCard mt-3">
   <img :src="zeroniIcon.zeroni" class="card-img-top zeroniPics" alt="...">
   <div class="card-body">
-    <h5 class="card-title">{{ zeroniIcon.projectName }}</h5>  
+    <h5 class="card-title my-3">{{ zeroniIcon.projectName }}</h5>  
 </div>
 </div>
 </a>
@@ -116,6 +124,17 @@
             
           </div>
           
+
+<!-- sewing projects will be added here -->
+          <div class="col-md-10 col-sm-12"  v-if="currentSection === 'other'" id="otherProjects">
+
+
+            <h2>My Zeroni Emotional Supports</h2>
+            <img src="https://picsum.photos/id/1025/600/400" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, eius. Voluptates hic fugiat dolorem temporibus maiores unde beatae inventore, commodi officia quam id porro fuga modi quisquam consequatur nam nemo!</p>
+          </div>
+
+
         </div>
       </div>
       <div id="websiteShowcase" class="d-none">
@@ -226,7 +245,7 @@
           <div class="modal-content">
             <div class="modal-header">
               <h1 class="modal-title fs-5" id="exampleModalLabel">
-                Modal title
+                Contact Me!!!
               </h1>
               <button
                 type="button"
@@ -235,18 +254,56 @@
                 aria-label="Close"
               ></button>
             </div>
-            <div class="modal-body">...</div>
+            <div class="modal-body">
+
+              <form
+  action="https://formspree.io/f/xjgloaww"
+  method="POST"
+>
+
+
+
+  <div class="form-floating mb-3">
+    <input
+      type="email"
+      class="form-control"
+      name="email"
+      id="formId2"
+      placeholder=""
+    />
+    <label for="formId2">Your email</label>
+  </div>
+  <div class="form-floating">
+    <textarea
+      class="form-control"
+      placeholder="Your message"
+      name="message"
+      id="formId3"
+      style="height: 100px"
+    ></textarea>
+    <label for="formId3">Your message</label>
+  </div>
+    
+  </label>
+  <!-- your other form fields go here -->
+
+            </div>
             <div class="modal-footer">
               <button
                 type="button"
-                class="btn btn-secondary"
+                class="btn closeBtn"
                 data-bs-dismiss="modal"
               >
                 Close
               </button>
-              <button type="button" class="btn btn-primary">
-                Save changes
-              </button>
+              
+                
+                  <button type="submit" class="btn submitBtn">Send</button>
+
+    </form>
+
+                
+             
             </div>
           </div>
         </div>

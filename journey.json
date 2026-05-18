@@ -1,6 +1,31 @@
 [
     {
+        "header": "Freshman Year",
         "image": "imgs/zeroni1.png",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quisquam, voluptatesque, voluptate, voluptatum voluptatibus voluptate voluptas"
+    },
+    {
+        "header": "Sophomore Year",
+        "image": "imgs/zeroni2.png",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quisquam, voluptatesque, voluptate, voluptatum voluptatibus voluptate voluptas"
+        
+    },
+    {
+        "header": "Junior Year",
+        "image": "imgs/zeroni3.png",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quisquam, voluptatesque, voluptate, voluptatum voluptatibus voluptate voluptas"
+       
+    },
+    {
+        "header": "Senior Year",
+        "image": "imgs/zeroni4.png",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quisquam, voluptatesque, voluptate, voluptatum voluptatibus voluptate voluptas"
+      
+    },
+    {
+        "header": "Future Plans",
+        "image": "imgs/zeroni5.png",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quisquam, voluptatesque, voluptate, voluptatum voluptatibus voluptate voluptas"
+        
     }
 ]

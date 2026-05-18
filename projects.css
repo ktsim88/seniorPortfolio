@@ -128,3 +128,17 @@ font-style: normal;
 .close:hover {    background-color: rgba(255, 0, 0, 1);
 }   
 /* range input styling */
+
+.websiteSection {
+    border-top: rgb(0, 0, 0) solid 20px;
+}
+.selector {
+    border-right: rgb(0, 0, 0) solid 20px;
+    background-color: lightskyblue;
+}
+#webProjects {
+    background-color: lightgreen;
+}
+#otherProjects {
+    background-color: lightblue;
+}

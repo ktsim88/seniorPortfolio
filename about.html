@@ -99,49 +99,133 @@
 </div>
             </div>
           </div>
-          <!-- my journey section    -->
-           <div class="row">
-            <h2 class="my-3">My Journey</h2>
-                <label for="range4" class="form-label">Example range</label>
-                <input type="range" class="form-range" min="0" max="4" value="0" id="range4">
-                <output for="range4" id="rangeValue" aria-hidden="true"></output>
-                <div class="row my-3">
-                    <div class="col-md-6 col-sm-12 my-3">
-                        <img src="imgs/zeroni2.png" alt="My Journey Image" class="img-fluid pics" width="25%" />
-                    </div>
-                    <div class="col-md-6 col-sm-12 my-3">
-                        <p class="info">Here you can describe your journey and the experiences that have shaped you.</p>
-                    </div>
-                </div>
-                <button class="btn btn-primary"><a href="projects.html" class="text-decoration-none text-white">View My Projects</a></button>
+          <!-- my journey section (used chatgpt for this)    -->
+           <div class="row" v-if="journeys.length">
+    <h2 class="my-3">My Journey</h2>
+
+    <label for="range4" class="form-label">
+        {{ journeys[currentRange].header }}
+    </label>
+
+    <input 
+    type="range" 
+    class="form-range"
+    min="0"
+    :max="journeys.length - 1"
+    v-model.number="currentRange"
+    :style="sliderStyle"
+    id="range4"
+>
+
+    <div class="row my-3">
+        <div class="col-md-6 col-sm-12 my-3">
+            <img 
+                :src="journeys[currentRange].image"
+                alt="My Journey Image"
+                class="img-fluid pics"
+                width="25%"
+            />
+        </div>
+
+        <div class="col-md-6 col-sm-12 my-3">
+            <p class="info">
+                {{ journeys[currentRange].description }}
+            </p>
+        </div>
+    </div>
+   
+    
+</div> 
+<a
+      name=""
+      id=""
+      class="btn btn-primary my-3"
+      href="projects.html"
+      role="button"
+      >See my projects!!!</a
+    >
+    <!-- Modal to contact me -->
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">
+                Contact Me!!!
+              </h1>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+
+              <form
+  action="https://formspree.io/f/xjgloaww"
+  method="POST"
+>
+
+
+
+  <div class="form-floating mb-3">
+    <input
+      type="email"
+      class="form-control"
+      name="email"
+      id="formId2"
+      placeholder=""
+    />
+    <label for="formId2">Your email</label>
+  </div>
+  <div class="form-floating">
+    <textarea
+      class="form-control"
+      placeholder="Your message"
+      name="message"
+      id="formId3"
+      style="height: 100px"
+    ></textarea>
+    <label for="formId3">Your message</label>
+  </div>
+    
+  </label>
+  <!-- your other form fields go here -->
+
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn closeBtn"
+                data-bs-dismiss="modal"
+              >
+                Close
+              </button>
+              
+                
+                  <button type="submit" class="btn submitBtn">Send</button>
+
+    </form>
+
+                
+             
+            </div>
           </div>
+        </div>
+      </div>
+      <!-- end of modal -->
         </main>
         <footer>
             <!-- place footer here -->
         </footer>
         <!-- from chatgpt -->
          <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-        <script>
-const slider = document.getElementById("range4");
-
-function updateSlider() {
-    const value = (slider.value / slider.max) * 100;
-
-    slider.style.background = `
-        linear-gradient(
-            to right,
-            #A9D6FF 0%,
-            #A9D6FF ${value}%,
-            #E5E7EB ${value}%,
-            #E5E7EB 100%
-        )
-    `;
-}
-
-slider.addEventListener("input", updateSlider);
-
-updateSlider();
-</script>
      
 
         <!-- Bootstrap JavaScript Bundle (includes Popper) -->
