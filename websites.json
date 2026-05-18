@@ -1,8 +1,8 @@
 [
     {
         "name": "Luis von Ahn Page",
-        "description": "Lorem ipsum dolor sit amet consectetur 'adipisicing elit. Voluptas quisquam, voluptatesque, voluptate, voluptatum voluptatibus voluptate voluptas",
-        "improvements": "Lorem ipsum dolor sit amet consectetur 'adipisicing elit. Voluptas quisquam, voluptatesque, voluptate, voluptatum voluptatibus voluptate voluptas",
+        "description": "We were assigned to make a project on a designer tribute page using HTML, CSS, and the Bootstrap library. I ended up deciding to build my website on the designer of Duolingo because I was obsessed with using that app to learn Spanish at the time. This was a research project in which we had to learn about their early life, education, work, and other aspects. I even decided to add all of the languages, characters, and merch that Duolingo had to offer.",
+        "improvements": "I would like to add a proper footer to the website because it is missing stuff. I would also like to add more images and update the cards, as most of the items there are no longer on sale. I also want to add more animations and adjust the card sizes because they are all different heights. I also want to add more margin because there is not enough room between the ends of the cards and the items underneath the cards",
         "images": ["imgs/luisVonAhn1.png", "imgs/luisVonAhn2.png", "imgs/luisVonAhn3.png"],
         "grade": 10,
         "id": "carousel1",
@@ -11,8 +11,8 @@
     },
     {
         "name": "Cusco Information Site",
-        "description": "Lorem ipsum dolor sit amet consectetur 'adipisicing elit. Voluptas quisquam, voluptatesque, voluptate, voluptatum voluptatibus voluptate voluptas",
-        "improvements": "Lorem ipsum dolor sit amet consectetur 'adipisicing elit. Voluptas quisquam, voluptatesque, voluptate, voluptatum voluptatibus voluptate voluptas",
+        "description": "The goal of the project was to make an information site on a place that you wanted to visit. I chose Cusco, Peru because I was actually going to visit Peru over the summer after school ended. I had to do research on Cusco itself: travel information, hotels, restaurants, activities, and history. I built this site using HTML, CSS, and Bootstrap elements. I used Bootstrap accordions for the first time and put carousels into the image part of the cards. I also added pictures with hovers on the home page.",
+        "improvements": "I would like to add a footer because it is missing something to end the page. I also want to remove the rounded navbar and make it not look identical to the Duolingo website. I also want to make all of the images the exact same height because they all have a variety of lengths. I also need to round the corners of my pictures because it does not look right without rounded corners.",
         "images": ["imgs/cusco1.png", "imgs/cusco2.png", "imgs/cusco3.png"],
         "grade": 10,
         "id": "carousel2",
@@ -21,8 +21,8 @@
     },
     {
         "name": "Karen's Exquisite Coffeehouse",
-        "description": "Lorem ipsum dolor sit amet consectetur 'adipisicing elit. Voluptas quisquam, voluptatesque, voluptate, voluptatum voluptatibus voluptate voluptas",
-        "improvements": "Lorem ipsum dolor sit amet consectetur 'adipisicing elit. Voluptas quisquam, voluptatesque, voluptate, voluptatum voluptatibus voluptate voluptas",
+        "description": "This was the first group project where you would design your own cafe website using HTML, CSS, and Bootstrap elements. My friends and I decided to make a Karen-themed cafe where everything is overpriced and there would be terrible service because everyone is a Karen (hypothetically). We decided on a homepage, menu page, hiring page, rule handbook and a contact page. We also made the menu and a hiring page using Canva to enhance the website. We also added a lot of animations to the website to make it more fun and engaging. We also added a lot of images to the website to make it more visually appealing.",
+        "improvements": "I would like to add a footer because it is missing something that would end a page nicely. I want to fix the contact form so it actually goes somewhere instead of leading to a nonexistent page. I would also like to round the corners on all of the pages because it does not look professional. I also need to add a bottom margin so there is more room in between the cards and the bottom of the page.",
         "images": ["imgs/karenCafe1.png", "imgs/karenCafe2.png", "imgs/karenCafe3.png"],
         "grade": 10,
         "id": "carousel3",
@@ -31,8 +31,8 @@
     },
     {
         "name": "Shamrock Hangman",
-        "description": "Lorem ipsum dolor sit amet consectetur 'adipisicing elit. Voluptas quisquam, voluptatesque, voluptate, voluptatum voluptatibus voluptate voluptas",
-        "improvements": "Lorem ipsum dolor sit amet consectetur 'adipisicing elit. Voluptas quisquam, voluptatesque, voluptate, voluptatum voluptatibus voluptate voluptas",
+        "description": "I made this hangman website using HTML, CSS, and JavaScript which was the monthly website for March. This was the first time using arrays to store the words and current guesses. The game works by the user selecting a difficulty and the array of words is filtered by length. The user would then guess each letter. If the user’s guess is incorrect, part of the clover will show up. The user will keep playing until the word is fully guessed or the clover is fully built.",
+        "improvements": "I would add a proper home page so it’s more welcoming instead of it just being a screen with the three difficulty buttons. I would also like to add the word graveyard and the option for the user to create a word for someone else to guess. I would also like to make the site a bit smaller so the user does not have to scroll to see their results. I would also like to make the background more interesting, rather than a plain color. I would also like to add a reset button so the user can play again without having to refresh the page.",
         "images": ["imgs/hangman1.png", "imgs/hangman2.png", "imgs/hangman3.png"],
         "grade": 11,
         "id": "carousel4",
@@ -41,8 +41,8 @@
     },
     {
         "name": "Race to the Crown",
-        "description": "Lorem ipsum dolor sit amet consectetur 'adipisicing elit. Voluptas quisquam, voluptatesque, voluptate, voluptatum voluptatibus voluptate voluptas",
-        "improvements": "Lorem ipsum dolor sit amet consectetur 'adipisicing elit. Voluptas quisquam, voluptatesque, voluptate, voluptatum voluptatibus voluptate voluptas",
+        "description": "Race to the Crown was a game that my friend and I built for TSA Board Game design. I decided to build an online version of that game because this project was a wildcard project where you can build whatever you want. I used many different arrays to store the questions and answers for the different categories. I also used different functions to access different variables to help the game function.",
+        "improvements": "I would like to add a multiplayer mode to that game because the current game is a single-player game. I also want to enhance the home page by adding more elements to the home page and maybe even a loading screen. I also want to add more animations because it looks bland without them. I also want to add more categories and questions to the game because there are not that many right now. I also want to add a reset button so the user can play again without having to refresh the page.",
         "images": ["imgs/rttc1.png", "imgs/rttc2.png", "imgs/rttc3.png"],
         "grade": 11,
         "id": "carousel5",
@@ -51,8 +51,8 @@
     },
     {
         "name": "Cookie Run Kingdom Roster",
-        "description": "Lorem ipsum dolor sit amet consectetur 'adipisicing elit. Voluptas quisquam, voluptatesque, voluptate, voluptatum voluptatibus voluptate voluptas",
-        "improvements": "Lorem ipsum dolor sit amet consectetur 'adipisicing elit. Voluptas quisquam, voluptatesque, voluptate, voluptatum voluptatibus voluptate voluptas",
+        "description": "I made a team roster on the Cookie Run Kingdom based on a template from class using HTML, CSS, and JavaScript. This was the first project where we started to use objects and use JavaScript to create HTML, so I didn’t have to hard-code everything. I made 72 cards, and they were all stored in a separate JavaScript file.",
+        "improvements": "I need to redo the home page because it looks very boring and I need to change that ugly background. I also want to update that loading page because the green is too low. I also want to add more animations to the cards so it looks more fun. I also need to shorten the main 5 characters in the about page so there is less scrolling required.",
         "images": ["imgs/crkRoster1.png", "imgs/crkRoster2.png", "imgs/crkRoster3.png"],
         "grade": 11,
         "id": "carousel6",
@@ -61,8 +61,8 @@
     },
     {
         "name": "Rutgers Information Site",
-        "description": "Lorem ipsum dolor sit amet consectetur 'adipisicing elit. Voluptas quisquam, voluptatesque, voluptate, voluptatum voluptatibus voluptate voluptas",
-        "improvements": "Lorem ipsum dolor sit amet consectetur 'adipisicing elit. Voluptas quisquam, voluptatesque, voluptate, voluptatum voluptatibus voluptate voluptas",
+        "description": "Rutgers is my number one choice for colleges and I decided to make an informative website to give students easier access to information. It is very difficult to navigate through the main website. Even to access majors for a specific school, it will take you roughly 10 clicks to learn about majors in the engineering school, for example.",
+        "improvements": "I want to move the home page selector a bit down because it's not perfectly centered. I also want to add animations to the site to make it feel more fluid, rather than a static site. Also, I need to add a footer because it is missing an ending part. I also need to add more margin for the buttons for the faculty because it's too close to the edges.",
         "images": ["imgs/rutgers1.png", "imgs/rutgers2.png", "imgs/rutgers3.png"],
         "grade": 12,
         "id": "carousel7",
@@ -71,8 +71,8 @@
     },
     {
         "name": "Course Planner",
-        "description": "Lorem ipsum dolor sit amet consectetur 'adipisicing elit. Voluptas quisquam, voluptatesque, voluptate, voluptatum voluptatibus voluptate voluptas",
-        "improvements": "Lorem ipsum dolor sit amet consectetur 'adipisicing elit. Voluptas quisquam, voluptatesque, voluptate, voluptatum voluptatibus voluptate voluptas",
+        "description": "The goal of this website is to help students see all of the classes that are offered at Marlboro High School and select classes that a student could take based on what they have already taken and what requirements they need to fulfill. We also filtered courses based on what the user wants to potentially major in. The user can create a schedule based on many dropdowns and they can save it for future reference. This was the first project where I learned how to pull requests and branches in GitHub. ",
+        "improvements": "I want to make it less wordy because there are a lot of words on the page when the user is learning what they have to do. Also, I need to fix the selecting classes part, where the user can select classes based on recommendations. My friend and I forgot to try our own schedules for senior year because we placed math electives in the same area as math core subjects. Users are unable to select AP CSA and AP Calc at the same time, for example. I also want to modify the favorites so it's in a nicer layout instead of a list.",
         "images": ["imgs/coursePlanner1.png", "imgs/coursePlanner2.png", "imgs/coursePlanner3.png"],
         "grade": 12,
         "id": "carousel8",
@@ -81,8 +81,8 @@
     },
     {
         "name": "stwabewee",
-        "description": "Lorem ipsum dolor sit amet consectetur 'adipisicing elit. Voluptas quisquam, voluptatesque, voluptate, voluptatum voluptatibus voluptate voluptas",
-        "improvements": "Lorem ipsum dolor sit amet consectetur 'adipisicing elit. Voluptas quisquam, voluptatesque, voluptate, voluptatum voluptatibus voluptate voluptas",
+        "description": "Stwabewee is my cousin’s online business where she does commissions for other people. She started her business in July 2025 and she needed an updated website. Her original website was built through the AI website builders, but some of the buttons did not link to the correct links. I built her a website where she can show off some of her work and put more information about herself. This was the first client I’ve ever worked with. I had to make sure that the website was exactly how she wanted it and I had to make sure that all of the links were correct. I also had to make sure that the website was visually appealing and easy to navigate.",
+        "improvements": "I want to add a home page using some of the work she has created, so there’s an opening statement. I would like to add some gradients and make the background row a bit smaller. I also want to make the commissions page section a bit smaller because the images are way too big. Also, some of the images are not the exact size, so I would like to modify that. I also want to add a contact form so people can easily contact her for commissions. I also want to add a footer because it is missing something that would end the page nicely.",
         "images": ["imgs/stwabewee1.png", "imgs/stwabewee2.png", "imgs/stwabewee3.png"],
         "grade": 12,
         "id": "carousel9",
