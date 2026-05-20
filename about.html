@@ -65,7 +65,7 @@
         </header>
         <main id="app" class="container text-center align-items-center justify-content-center">
           <!-- about me section -->
-          <div class="row my-3 py-4">
+          <div class="row my-3 py-5" v-fade-on-scroll>
             <h1 class="my-1">About Me</h1>
             <div class="col-md-6 col-sm-12">
               <img src="imgs/seniorphoto1.png" alt="Profile Image" class="img-fluid my-3 pics"  width="50%" />
@@ -79,7 +79,7 @@
             </div>
           </div>
           <!-- my skills section -->
-          <div class="row my-3">
+          <div class="row my-3 py-4" v-fade-on-scroll>
             <h2 class="my-3">My Skills</h2>
             <!-- this will be generated using vue (will be implemented later) -->
             <div class="col-md-4 col-sm-12 my-3" v-for="skill in skills">
@@ -100,7 +100,7 @@
             </div>
           </div>
           <!-- my journey section (used chatgpt for this)    -->
-           <div class="row" v-if="journeys.length">
+           <div class="row" v-if="journeys.length" v-fade-on-scroll>
     <h2 class="my-3">My Journey</h2>
 
     <label for="range4" class="form-label">
