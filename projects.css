@@ -93,7 +93,14 @@ img {
 .zeroniPics {
     height: 250px;
     width: 250px;
+    background-color: rgb(216, 247, 255);
+    transition: transform 0.3s ease;
 
+}
+.zeroniPics:hover {
+    background-color: rgb(216, 247, 255);
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
 }
 
 
@@ -130,15 +137,20 @@ font-style: normal;
 /* range input styling */
 
 .websiteSection {
-    border-top: rgb(0, 0, 0) solid 20px;
+    border-top: rgb(255, 255, 255) solid 20px;
 }
 .selector {
     border-right: rgb(0, 0, 0) solid 20px;
     background-color: lightskyblue;
 }
 #webProjects {
-    background-color: lightgreen;
+    background-color: rgb(216, 247, 255);
 }
 #otherProjects {
     background-color: lightblue;
+}
+.carousel {
+    background-color: rgb(216, 247, 255);
+    border-radius: 10px;
+    padding: 20px;
 }
