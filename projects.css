@@ -93,13 +93,11 @@ img {
 .zeroniPics {
     height: 250px;
     width: 250px;
-    background-color: rgb(216, 247, 255);
     transition: transform 0.3s ease;
 
 }
 .zeroniPics:hover {
-    background-color: rgb(216, 247, 255);
-    transform: scale(1.05);
+    transform: scale(1.15);
     transition: transform 0.3s ease;
 }
 
@@ -154,3 +152,5 @@ font-style: normal;
     border-radius: 10px;
     padding: 20px;
 }
+
+/* range input styling */

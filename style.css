@@ -117,3 +117,7 @@ footer {
         font-weight: 400;
         font-style: normal;
 */
+.modal-content {
+    border-radius: 10px;
+    background: linear-gradient(90deg, #BDE0FE 0%, #A2D2FF 100%);
+}
