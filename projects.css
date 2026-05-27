@@ -153,4 +153,7 @@ font-style: normal;
     padding: 20px;
 }
 
-/* range input styling */
+footer {
+    background: linear-gradient(90deg, #8FC9FF 50%, #3370aa 100%);
+    border-top: dashed rgb(255, 255, 255) 2px;
+}
