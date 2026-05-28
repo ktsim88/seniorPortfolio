@@ -2,30 +2,27 @@
     {
         "header": "Freshman Year",
         "image": "imgs/freshPic.png",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quisquam, voluptatesque, voluptate, voluptatum voluptatibus voluptate voluptas"
+        "description": "When I entered high school, I knew I wanted to go into the STEM field but I didn’t know if it was something I would like to do for the rest of my life. I started to join many extracurricular activities such as the concert orchestra and pit orchestra. I was intrigued when I learned about the Web Design Program during my English class. I ended up taking the first level of this program for my sophomore year. I was really excited to learn about web design and programming and I was excited to see what I would be able to create with the skills I would learn in this program."
     },
     {
         "header": "Sophomore Year",
         "image": "imgs/sophPic.png",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quisquam, voluptatesque, voluptate, voluptatum voluptatibus voluptate voluptas"
-        
+        "description": "During my sophomore year, I started the Web Design Program and I really enjoyed it. I learned how to use HTML, CSS, and Bootstrap 5 to create websites. I enjoyed pouring my creativity into my projects and I was excited to learn more about web design and programming. I also joined the advisory board for Web Design. I startd to learn JavaScript on my own through the Girls Who Code Pathways. I even got the chance to research about Cusco, Peru and I even went to a restauarant that I researched about!"
     },
     {
         "header": "Junior Year",
         "image": "imgs/jrpic.png",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quisquam, voluptatesque, voluptate, voluptatum voluptatibus voluptate voluptas"
-       
+        "description": "During my junior year, I started to learn more about JavaScript which added more interactivity to my projects. I made many game websites like Rock, Paper, Scissors and Hangman. I also learned objects in JavaScript which allowed me to make code more efficient. I really enjoyed learning about JavaScript and I was excited to learn more about it in my senior year. I also joined the advisory board for Web Design again and I was able to help out with giving feedback. I also rejoined Girls Who Code where I was able to learn about Python. I was even given the opportunity to meet in person at NYC where I got to meet other girls who were interested in coding and industry professionals."
     },
     {
         "header": "Senior Year",
         "image": "imgs/srpic2.png",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quisquam, voluptatesque, voluptate, voluptatum voluptatibus voluptate voluptas"
-      
+        "description": "During my senior year, I learned how to incorporate jQuery and Vue.js into my projects. I really enjoyed learning about these two technologies because they made it easier to add interactivity to my projects. I also learned about Java in AP Computer Science A. I also made websites to help solve problems. For instance, I made a website to help students pick the classes that best suit their interests and a website to help my cousin get more customers for her online business. These projects were really fun to make and I was able to use the skills I learned in class to make them."
     },
     {
         "header": "Future Plans",
         "image": "imgs/futurePlans.png",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quisquam, voluptatesque, voluptate, voluptatum voluptatibus voluptate voluptas"
+        "description": "I am planning to go to Rutgers and major in either Industrial or Electrical Engineering with a minor in Computer Science. I am really excited to go to college and learn more about engineering and computer science. The Web Design Pathway Program has really helped me figure out what I want to do in the future and I am excited to continue learning about programming and engineering in college. This porgram gave me the opportunity to learn about different programming languages and technologies and I am excited to continue learning about them in college and in the future. I am also excited to meet new people who are interested in the same field as me and to learn from them. I am really grateful for the Web Design Pathway Program and I am excited to see where it takes me in the future."
         
     }
 ]
