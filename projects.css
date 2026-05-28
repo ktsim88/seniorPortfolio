@@ -135,17 +135,21 @@ font-style: normal;
 /* range input styling */
 
 .websiteSection {
-    border-top: rgb(255, 255, 255) solid 20px;
+    border-top: rgb(255, 255, 255) solid 25px;
+    box-shadow: black 0px 0px 20px;
 }
 .selector {
-    border-right: rgb(0, 0, 0) solid 20px;
+    border: rgb(0, 0, 0) solid 2px;
     background-color: lightskyblue;
+    border-right: black solid 0px;
 }
 #webProjects {
-    background-color: rgb(216, 247, 255);
+    border: black solid 2px;
+    background-color: #FFD5D5;
 }
 #otherProjects {
     background-color: lightblue;
+    border: black solid 2px;
 }
 .carousel {
     background-color: rgb(216, 247, 255);
@@ -156,4 +160,18 @@ font-style: normal;
 footer {
     background: linear-gradient(90deg, #8FC9FF 50%, #3370aa 100%);
     border-top: dashed rgb(255, 255, 255) 2px;
+}
+.modal-content {
+    border-radius: 10px;
+    background: linear-gradient(90deg, #BDE0FE 0%, #A2D2FF 100%);
+}
+.closeBtn {
+    background-color: #ffffff;
+    border: solid white 2px;
+    border-radius: 10px;
+}
+.submitBtn {
+    background-color: #ffffff;
+    border: solid white 2px;
+    border-radius: 10px;
 }

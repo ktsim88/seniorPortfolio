@@ -14,6 +14,7 @@
             crossorigin="anonymous"
         />
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="about.css">
         <link rel="stylesheet" href="https://use.typekit.net/zkp7qte.css" />
     </head>
 
@@ -67,13 +68,17 @@
           <!-- about me section -->
           <div class="row my-3 py-5" v-fade-on-scroll>
             <h1 class="my-1">About Me</h1>
-            <div class="col-md-6 col-sm-12">
+            <div class="col-lg-6 col-md-12 my-auto">
               <img src="imgs/seniorphoto1.png" alt="Profile Image" class="img-fluid my-3 pics"  width="50%" />
             </div>
-            <div class="col-md-6 col-sm-12 my-auto">
+            <div class="col-lg-6 col-md-12 my-auto">
               <div class="info mx-3 me-5 p-3">
-                <p class="lead">I am a passionate web developer with a love for creating beautiful and functional websites.</p>
-              <p>With a background in design and programming, I strive to create seamless user experiences that are both visually appealing and highly functional.</p>
+              <p>My name is Kristen Tsim and I am an incoming Freshman that plans to attend Rutgers University, majoring in Industrial or Electrical Engineering.
+                <br><br>
+                In high school, I was involved in a variety of extracurriculars such as Concert Orchestra, Pit Orchestra, Asian Club, and volunteering through the ENGin Program. I also have a passion for coding and have experience with HTML, CSS, and JavaScript. I have also taken a course in Java.
+                <br><br>
+                In my free time, I enjoy hiking, sewing, and playing the violin. I am excited to continue to learn and grow as a person and as a student at Rutgers University.
+              </p>
               </div>
               
             </div>
@@ -82,9 +87,9 @@
           <div class="row my-3 py-4">
             <h2 class="my-3">My Skills</h2>
             <!-- this will be generated using vue (will be implemented later) -->
-            <div class="col-md-4 col-sm-12 my-3" v-for="skill in skills" v-fade-on-scroll>
+            <div class="col-md-4 col-sm-12 my-3 " v-for="skill in skills" v-fade-on-scroll>
               <div class="card mb-3 p-2 " style="max-width: 1700px; max-height: fit-content;">
-  <div class="row g-0 skills h-100" style="background-color: white;">
+  <div class="row g-0 h-100 skills">
     <div class="col-4 my-auto">
       <img :src="skill.image" class="img-fluid rounded-start mx-2" alt="...">
     </div>
@@ -123,7 +128,7 @@
                 :src="journeys[currentRange].image"
                 alt="My Journey Image"
                 class="img-fluid pics"
-                width="25%"
+                width="50%"
             />
         </div>
 
@@ -139,7 +144,7 @@
 <a
       name=""
       id=""
-      class="btn btn-primary my-3"
+      class="btn my-3"
       href="projects.html"
       role="button"
       >See my projects!!!</a
