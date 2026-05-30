@@ -7,7 +7,9 @@
         "grade": 10,
         "id": "carousel1",
         "link": "https://ktsimdesignertributepage-9039177.codehs.me/index.html",
-        "site": "web1"   
+        "site": "web1",
+        "codePic": "imgs/duolingoCode.png",
+        "codeText": "lorem ipsum"
     },
     {
         "name": "Cusco Information Site",
@@ -17,7 +19,9 @@
         "grade": 10,
         "id": "carousel2",
         "link": "https://machupicchutravelktsim-1-9429935.codehs.me/index.html",
-        "site": "web2"   
+        "site": "web2",
+        "codePic": "imgs/cuscoCode.png",
+        "codeText": "lorem ipsum"   
     },
     {
         "name": "Karen's Exquisite Coffeehouse",
@@ -27,7 +31,9 @@
         "grade": 10,
         "id": "carousel3",
         "link": "https://theexquisitecoffeehousekt-9954991.codehs.me/index.html",
-        "site": "web3"   
+        "site": "web3",
+        "codePic": "imgs/karenCode.png",
+        "codeText": "lorem ipsum"
     },
     {
         "name": "Shamrock Hangman",
@@ -37,7 +43,9 @@
         "grade": 11,
         "id": "carousel4",
         "link": "https://ktsim88.github.io/MarchSite/",
-        "site": "web4"   
+        "site": "web4",
+        "codePic": "imgs/hangmanCode.png",
+        "codeText": "lorem ipsum"
     },
     {
         "name": "Race to the Crown",
@@ -47,7 +55,9 @@
         "grade": 11,
         "id": "carousel5",
         "link": "https://ktsim88.github.io/AprilSite/",
-        "site": "web5"
+        "site": "web5",
+        "codePic": "imgs/rttcCode.png",
+        "codeText": "lorem ipsum"
     },
     {
         "name": "Cookie Run Kingdom Roster",
@@ -57,7 +67,9 @@
         "grade": 11,
         "id": "carousel6",
         "link": "https://ktsim88.github.io/MaySite/",
-        "site": "web6"
+        "site": "web6",
+        "codePic": "imgs/crkCode.png",
+        "codeText": "lorem ipsum"
     },
     {
         "name": "Rutgers Information Site",
@@ -67,7 +79,9 @@
         "grade": 12,
         "id": "carousel7",
         "link": "https://ktsim88.github.io/collegeRecruitment/",
-        "site": "web7"
+        "site": "web7",
+        "codePic": "imgs/rutgersCode.png",
+        "codeText": "lorem ipsum"
     },
     {
         "name": "Course Planner",
@@ -77,7 +91,9 @@
         "grade": 12,
         "id": "carousel8",
         "link": "https://shagan742.github.io/CoursePlanner/",
-        "site": "web8"
+        "site": "web8",
+        "codePic": "imgs/coursePlannerCode.png",
+        "codeText": "lorem ipsum"
     },
     {
         "name": "stwabewee",
@@ -87,6 +103,8 @@
         "grade": 12,
         "id": "carousel9",
         "link": "https://ktsim88.github.io/stwabewee/",
-        "site": "web9"
+        "site": "web9",
+        "codePic": "imgs/stwabeweeCode.png",
+        "codeText": "lorem ipsum"
     }
 ]

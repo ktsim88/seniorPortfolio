@@ -1,3 +1,13 @@
 body {
     background: radial-gradient(circle, #9ac6ffc9 50%, #0c75ff79 100%);
 }
+
+img {
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+img:hover {
+    transform: matrix(1.2, 0, 0, 1.05, 4, -5);
+    transition: transform 0.3s ease;
+    transform-origin: center;
+}

@@ -43,7 +43,7 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="collapsibleNavId">
+          <div class="collapse navbar-collapse text-center" id="collapsibleNavId">
             <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
               <li class="nav-item">
                 <a class="nav-link active" href="about.html" aria-current="page">About </a>
@@ -53,7 +53,7 @@
               </li>
               <li class="nav-item">
                 <a
-                  class="btn nav-link"
+                  class="contactBtn btn nav-link"
                   data-bs-toggle="modal"
                   data-bs-target="#exampleModal"
                   >Contact</a
@@ -88,13 +88,13 @@
             <h2 class="my-3">My Skills</h2>
             <!-- this will be generated using vue (will be implemented later) -->
             <div class="col-md-4 col-sm-12 my-3 " v-for="skill in skills" v-fade-on-scroll>
-              <div class="card mb-3 p-2 " style="max-width: 1700px; max-height: fit-content;">
+              <div class="card mb-3 p-2 h-100" style="max-width: 1700px;">
   <div class="row g-0 h-100 skills">
     <div class="col-4 my-auto">
       <img :src="skill.image" class="img-fluid rounded-start mx-2" alt="...">
     </div>
     <div class="col-8">
-      <div class="card-body">
+      <div class="card-body my-auto">
         <h5 class="card-title">{{ skill.title }}</h5>
         <p class="card-text">{{ skill.description }}</p>
         
@@ -122,7 +122,7 @@
     id="range4"
 >
 
-    <div class="row my-3">
+    <div class="row my-3" id="journeyRow">
         <div class="col-md-6 col-sm-12 my-3">
             <img 
                 :src="journeys[currentRange].image"
@@ -132,8 +132,8 @@
             />
         </div>
 
-        <div class="col-md-6 col-sm-12 my-3">
-            <p class="info">
+        <div class="col-md-6 col-sm-12 my-3 my-auto">
+            <p class="info p-3">
                 {{ journeys[currentRange].description }}
             </p>
         </div>
@@ -144,7 +144,7 @@
 <a
       name=""
       id=""
-      class="btn my-3"
+      class="btn my-3 viewProjectsBtn"
       href="projects.html"
       role="button"
       >See my projects!!!</a

@@ -41,7 +41,7 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="collapsibleNavId">
+          <div class="collapse navbar-collapse text-center" id="collapsibleNavId">
             <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
               <li class="nav-item">
                 <a class="nav-link" href="about.html" aria-current="page"
@@ -53,7 +53,7 @@
               </li>
               <li class="nav-item">
                 <a
-                  class="btn nav-link"
+                  class="contactBtn btn nav-link"
                   data-bs-toggle="modal"
                   data-bs-target="#exampleModal"
                   >Contact</a
@@ -72,45 +72,26 @@
         <h1 class="my-3">Projects</h1>
         <div class="row websiteSection">
           <div class="col-md-2 col-sm-12 selector">
-            <div
-              class="flex-sm-row flex-md-column d-flex align-items-center justify-content-center w-100"
-              role="group"
-              aria-label="Vertical radio toggle button group"
-            >
-              <input
-  type="radio"
-  class="btn-check"
-  name="vbtn-radio"
-  id="vbtn-radio1"
-  autocomplete="off"
-  value="web"
-  v-model="currentSection"
-/>
+  <div
+    class="flex-sm-row flex-md-column d-flex align-items-stretch justify-content-center w-100 gap-2 mt-1"
+    role="group"
+    aria-label="Vertical radio toggle button group"
+  >
+    <input type="radio" class="btn-check" name="vbtn-radio" id="vbtn-radio1" autocomplete="off" value="web" v-model="currentSection" />
+    <label class="btn btn-custom w-100 flex-fill" for="vbtn-radio1">
+      Web Projects
+    </label>
 
-<label class="btn btn-outline-danger w-100" for="vbtn-radio1">
-  Web Projects
-</label>
-
-<input
-  type="radio"
-  class="btn-check"
-  name="vbtn-radio"
-  id="vbtn-radio2"
-  autocomplete="off"
-  value="other"
-  v-model="currentSection"
-/>
-
-<label class="btn btn-outline-danger w-100" for="vbtn-radio2">
-  Other Projects
-</label>
-              
-            </div>
-          </div>
+    <input type="radio" class="btn-check" name="vbtn-radio" id="vbtn-radio2" autocomplete="off" value="other" v-model="currentSection" />
+    <label class="btn btn-custom w-100 flex-fill" for="vbtn-radio2">
+      Other Projects
+    </label>
+  </div>
+</div>
           <div class="col-md-10 col-sm-12"  v-if="currentSection === 'web'" id="webProjects">
             <!-- Project icons, will be generated using vue later -->
 
-<a class="btn" role="button" v-for="zeroniIcon in zeroniIcons" @click="openWebsiteShowcase(zeroniIcon.site)">
+<a class="btn zeroniBtn" role="button" v-for="zeroniIcon in zeroniIcons" @click="openWebsiteShowcase(zeroniIcon.site)">
   
   <div class="zeroniCard mt-3">
   <img :src="zeroniIcon.zeroni" class="card-img-top zeroniPics" alt="...">
@@ -129,9 +110,9 @@
           <div class="col-md-10 col-sm-12"  v-if="currentSection === 'other'" id="otherProjects">
 
 
-            <h2>My Zeroni Emotional Supports</h2>
-            <img src="imgs/ZeroniGang2.JPEG" alt="" width="50%">
-            <p class="mx-5 my-3">
+            <h2 class="my-3">My Zeroni Emotional Supports</h2>
+            <img src="imgs/ZeroniGang2.JPEG" alt="" width="50%" class="my-3 rounded-3 zeroniFamily">
+            <p class="mx-5 my-3 p-3 info mb-5">
               “Zeronis” are the animal mascots of the members of my favorite group, Zerobaseone. These Zeronis are part of the marketing through Line Friends and they make plushies of these mascots. I started making them in March 2025 and finished them in February 2026. I started them when I was learning to sew other mini stuffed animals. I realized that one of the felt colors looked like the ones from my favorite Zeroni. I make these animals in my free time and I enjoy the process of making them.
 
             </p>
@@ -143,11 +124,14 @@
       <div id="websiteShowcase" class="d-none">
         <button type="button"  class="btn btn-danger position-absolute top-0 end-0 close me-2" style="border-radius: 1000px;" @click="closeWebsiteShowcase()">Close</button>
         
-        <div class="row my-3 d-none" v-for="project in websites" :key="project.id" :id="project.site">
-          <h1>{{ project.name }}</h1>
+        <div class="row my-3 p-5 d-none websiteRows mx-5" v-for="project in websites" :key="project.id" :id="project.site">
+          <h1 class="my-3">{{ project.name }}</h1>
+          <b>
+                Completed in Grade {{ project.grade }}.
+              </b>
           
           
-          <div class="col-md-6 col-sm-12 my-auto">
+          <div class="col-md-6 col-sm-12 my-auto d-flex flex-column align-items-center justify-content-center p-3">
             <div :id="project.id" class="carousel slide" data-bs-ride="carousel">
               
               <div class="carousel-inner" role="listbox">
@@ -195,27 +179,34 @@
 
 
             
-            <div class="info">
-              <b class="my-3">
-                Completed in Grade {{ project.grade }}.
-              </b>
-            </div>
+            
           </div>
           <div class="col-md-6 col-sm-12 my-auto">
             <h2>Overall</h2>
-            <p class="info">
+            <p class="info p-3">
               {{ project.description }}
             </p>
-            <h2 class="my-2">Improvements</h2>
-            <p class="info">
+            
+          </div>
+          <div class="row">
+            <h2 class="my-3">Code</h2>
+            <div class="col-md-6 col-sm-12 my-auto">
+              <img :src="project.codePic" alt="" class="w-100 codePic">
+            </div>
+            <div class="col-md-6 col-sm-12 my-auto">
+              <p class="info p-3 mt-3">
+                {{ project.codeText }}
+              </p>
+            </div>
+          </div>
+          <h2 class="my-3">Improvements</h2>
+            <p class="info p-3">
               <!-- Add improvement details here -->
               {{ project.improvements }}
             </p>
-            <button type="button" class="btn my-3" @click="openWebsite(project.link)">
+          <button type="button" class="btn my-3" @click="openWebsite(project.link)">
             View Project
           </button>
-          </div>
-          
         </div>
         
         

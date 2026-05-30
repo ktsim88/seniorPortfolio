@@ -2,32 +2,31 @@
     {
         "image": "imgs/html.png",
         "title": "HTML",
-        "description": "used to structure and organize content on the web, allowing for the creation of web pages and applications"
+        "description": "used to structure and organize content on websites for building responsive applications............."
     },
     {
         "image": "imgs/css.png",
         "title": "CSS",
-        "description": "used to style and layout web pages, making them visually appealing and responsive"
+        "description": "used to style and arrange web pages with responsive and visually appealing layouts.................."
     },
     {
         "image": "imgs/js.png",
         "title": "JavaScript",
-        "description": "used to add interactivity and dynamic behavior to web pages, allowing for features like animations, form validation, and user interactions"
+        "description": "used to add interactivity and dynamic behavior through animations and validation...................."
     },
     {
         "image": "imgs/jquery.png",
         "title": "jQuery",
-        "description": "fast, small, and feature-rich JavaScript library that simplifies HTML document traversing, event handling, and animation"
+        "description": "used to simplify document traversal, event handling, and animation on websites......................"
     },
     {
         "image": "imgs/vue.png",
         "title": "Vue.js",
-        "description": "progressive JavaScript framework for building user interfaces and single-page applications, known for its simplicity and flexibility"
+        "description": "used to build flexible user interfaces and responsive single-page applications......................"
     },
     {
         "image": "imgs/java.png",
         "title": "Java",
-        "description": "used to add interactivity and dynamic behavior to web pages, allowing for features like animations, form validation, and user interactions"
+        "description": "used to develop versatile applications using object-oriented programming concepts..................."
     }
-
 ]

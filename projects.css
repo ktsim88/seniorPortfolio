@@ -2,7 +2,22 @@
 body {
     background-color: #C2DCFF;
 }
-
+.btn {
+    font-family: "letter-gothic-recast", sans-serif;
+font-weight: 700;
+font-style: normal;
+background-color: #ffafcc;
+color: rgb(0, 0, 0);
+border: 2px dashed white;
+padding: 10px 20px;
+font-size: 16px;
+cursor: pointer;
+box-shadow: 8px 8px 3.6px rgba(0, 0, 0, 0.253);
+}
+.btn:hover {
+    background-color: #ff9fba;
+    color: white;
+}
 /* navbar styling */
 .navbar-brand {
     font-family: "liebelotte", sans-serif;
@@ -30,8 +45,25 @@ font-size: 50px;
 img {
     border-radius: 10px;
 }
-
+.card {
+    background-color: #ffffff;
+    border: dashed black 2px;
+    box-shadow: 8px 8px 3.6px rgba(0, 0, 0, 0.253);
+}
 /* project icon stuff*/
+.zeroniBtn {
+    background-color: #ffafcc00;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 8px 8px 3.6px rgba(0, 0, 0, 0);
+}
+.zeroniBtn:hover {
+    background-color: #ff9fba00;
+    color: rgb(0, 0, 0);
+}
 .zeroniPics {
     height: 250px;
     width: 250px;
@@ -71,6 +103,7 @@ font-style: normal;
     font-size: 16px;
     cursor: pointer;
     margin-top: 90px;
+    box-shadow: 0dvi 0px 3.6px rgba(0, 0, 0, 0.466);
 }
 .close:hover {    background-color: rgba(255, 0, 0, 1);
 }   
@@ -93,10 +126,10 @@ font-style: normal;
     background-color: lightblue;
     border: black solid 2px;
 }
-.carousel {
-    background-color: rgb(216, 247, 255);
-    border-radius: 10px;
-    padding: 20px;
+.carousel, .codePic {
+     border-radius: 10px;
+    border: dashed white 5px;
+    box-shadow: 8px 8px 3.6px rgba(0, 0, 0, 0.253);
 }
 
 footer {
@@ -107,13 +140,69 @@ footer {
     border-radius: 10px;
     background: linear-gradient(90deg, #BDE0FE 0%, #A2D2FF 100%);
 }
-.closeBtn {
-    background-color: #ffffff;
-    border: solid white 2px;
-    border-radius: 10px;
+
+.zeroniFamily {
+     border-radius: 10px;
+    border: dashed white 5px;
+    box-shadow: 8px 8px 3.6px rgba(0, 0, 0, 0.253);
 }
-.submitBtn {
-    background-color: #ffffff;
-    border: solid white 2px;
+.websiteRows {
     border-radius: 10px;
+    border: dashed white 5px;
+    box-shadow: 8px 8px 3.6px rgba(0, 0, 0, 0.253);
+    background-color: #ffbed0;
+}
+.info {
+    background-color: #d7d7f27e;
+    border-radius: 10px;
+    border: dashed white 2px;
+    box-shadow: 8px 8px 3.6px rgba(0, 0, 0, 0.253);
+}
+
+.contactBtn {
+    font-family: "letter-gothic-recast", sans-serif;
+font-weight: 700;
+font-style: normal;
+background-color: #ffafcc00;
+color: #404d59;
+padding: 10px 20px;
+font-size: 16px;
+cursor: pointer;
+box-shadow: 8px 8px 3.6px rgba(0, 0, 0, 0);
+}
+.contactBtn:hover {
+    background-color: #a5d4ff;
+    color: black;
+}
+/* from gemini */
+/* --- Base Styles for both labels --- */
+.selector .btn-custom {
+  background-color: #f8f9fa;
+  color: #495057;
+  border: 2px solid #dee2e6;
+  border-radius: 8px;
+  padding: 12px 20px;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0);
+}
+
+.selector .btn-custom:hover {
+  background-color: #e9ecef;
+  color: #212529;
+}
+
+/* --- Specific Checked State for Radio 1 (Web Projects) --- */
+#vbtn-radio1:checked + .btn-custom {
+  background-color: #FFD5D5; /* Bootstrap Blue */
+  border-color: #FFD5D5;
+  color: #000000;
+  box-shadow: 0 4px 6px rgba(13, 109, 253, 0);
+}
+
+/* --- Specific Checked State for Radio 2 (Other Projects) --- */
+#vbtn-radio2:checked + .btn-custom {
+  background-color: lightblue; 
+  border-color: lightblue;
+  color: #000000;
+  box-shadow: 0 4px 6px rgba(25, 135, 84, 0);
 }

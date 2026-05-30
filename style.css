@@ -2,7 +2,22 @@
 body {
     background-color: #C2DCFF;
 }
-
+.btn {
+    font-family: "letter-gothic-recast", sans-serif;
+font-weight: 700;
+font-style: normal;
+background-color: #ffafcc;
+color: rgb(0, 0, 0);
+border: 2px dashed white;
+padding: 10px 20px;
+font-size: 16px;
+cursor: pointer;
+box-shadow: 8px 8px 3.6px rgba(0, 0, 0, 0.253);
+}
+.btn:hover {
+    background-color: #ff9fba;
+    color: white;
+}
 
 /* navbar styling */
 .navbar-brand {
@@ -30,7 +45,7 @@ font-size: 50px;
 }
 .pics, .info {
     border-radius: 10px;
-    border: solid white 5px;
+    border: dashed white 5px;
     box-shadow: 8px 8px 3.6px rgba(0, 0, 0, 0.253);
 }
 /* range input styling */
@@ -129,13 +144,19 @@ font-weight: 400;
 font-style: normal;
 }
 
-.closeBtn {
-    background-color: #ffffff;
-    border: solid white 2px;
-    border-radius: 10px;
+
+.contactBtn {
+    font-family: "letter-gothic-recast", sans-serif;
+font-weight: 700;
+font-style: normal;
+background-color: #ffafcc00;
+color: #404d59;
+padding: 10px 20px;
+font-size: 16px;
+cursor: pointer;
+box-shadow: 8px 8px 3.6px rgba(0, 0, 0, 0);
 }
-.submitBtn {
-    background-color: #ffffff;
-    border: solid white 2px;
-    border-radius: 10px;
+.contactBtn:hover {
+    background-color: #a5d4ff;
+    color: black;
 }
