@@ -13,12 +13,10 @@
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="projects.css" />
     <link rel="stylesheet" href="https://use.typekit.net/zkp7qte.css" />
   </head>
-
-  <body>
-    <header>
       <nav class="navbar navbar-expand-md">
         <div class="container">
           <a class="navbar-brand" href="index.html">
@@ -111,7 +109,7 @@
 
 
             <h2 class="my-3">My Zeroni Emotional Supports</h2>
-            <img src="imgs/ZeroniGang2.JPEG" alt="" width="50%" class="my-3 rounded-3 zeroniFamily">
+            <img src="imgs/ZeroniGang2.JPEG" alt="" width="50%" class="my-3 rounded-3 zeroniFamily img-fluid">
             <p class="mx-5 my-3 p-3 info mb-5">
               “Zeronis” are the animal mascots of the members of my favorite group, Zerobaseone. These Zeronis are part of the marketing through Line Friends and they make plushies of these mascots. I started making them in March 2025 and finished them in February 2026. I started them when I was learning to sew other mini stuffed animals. I realized that one of the felt colors looked like the ones from my favorite Zeroni. I make these animals in my free time and I enjoy the process of making them.
 
@@ -188,7 +186,8 @@
             </p>
             
           </div>
-          <div class="row">
+          <div class="col-12">
+            <div class="row">
             <h2 class="my-3">Code</h2>
             <div class="col-md-6 col-sm-12 my-auto">
               <img :src="project.codePic" alt="" class="w-100 codePic">
@@ -199,6 +198,8 @@
               </p>
             </div>
           </div>
+          </div>
+          
           <h2 class="my-3">Improvements</h2>
             <p class="info p-3">
               <!-- Add improvement details here -->

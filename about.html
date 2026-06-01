@@ -72,7 +72,7 @@
               <img src="imgs/seniorphoto1.png" alt="Profile Image" class="img-fluid my-3 pics"  width="50%" />
             </div>
             <div class="col-lg-6 col-md-12 my-auto">
-              <div class="info mx-3 me-5 p-3">
+              <div class="info mx-3 p-3">
               <p>My name is Kristen Tsim and I am an incoming Freshman that plans to attend Rutgers University, majoring in Industrial or Electrical Engineering.
                 <br><br>
                 In high school, I was involved in a variety of extracurriculars such as Concert Orchestra, Pit Orchestra, Asian Club, and volunteering through the ENGin Program. I also have a passion for coding and have experience with HTML, CSS, and JavaScript. I have also taken a course in Java.
@@ -121,8 +121,8 @@
     :style="sliderStyle"
     id="range4"
 >
-
-    <div class="row my-3" id="journeyRow">
+<div class="col-12">
+  <div class="row align-items-center py-3 m-3" id="journeyRow">
         <div class="col-md-6 col-sm-12 my-3">
             <img 
                 :src="journeys[currentRange].image"
@@ -131,13 +131,14 @@
                 width="50%"
             />
         </div>
-
-        <div class="col-md-6 col-sm-12 my-3 my-auto">
-            <p class="info p-3">
+        <div class="col-md-6 col-sm-12 my-auto d-flex justify-content-center">
+            <p class="info mx-3 p-3">
                 {{ journeys[currentRange].description }}
             </p>
         </div>
     </div>
+</div>
+    
    
     
 </div> 

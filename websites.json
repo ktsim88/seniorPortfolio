@@ -9,7 +9,7 @@
         "link": "https://ktsimdesignertributepage-9039177.codehs.me/index.html",
         "site": "web1",
         "codePic": "imgs/duolingoCode.png",
-        "codeText": "lorem ipsum"
+        "codeText": "This code shows what a Bootstrap card looks like. I used these cards to showcase some of the products from the Duolingo. I showed an image, a title and a link to the produt. These were all stored in a row with three columns."
     },
     {
         "name": "Cusco Information Site",
@@ -21,7 +21,7 @@
         "link": "https://machupicchutravelktsim-1-9429935.codehs.me/index.html",
         "site": "web2",
         "codePic": "imgs/cuscoCode.png",
-        "codeText": "lorem ipsum"   
+        "codeText": "This is code for a Bootstrap Card that shows has a carousel in the image part of the card. I used this for the activities section of the website to show off some of the activities that you can do in Cusco. I also added a link to each activity so users can easily access more information about the activity."   
     },
     {
         "name": "Karen's Exquisite Coffeehouse",
@@ -33,7 +33,7 @@
         "link": "https://theexquisitecoffeehousekt-9954991.codehs.me/index.html",
         "site": "web3",
         "codePic": "imgs/karenCode.png",
-        "codeText": "lorem ipsum"
+        "codeText": "This is the CSS code that has the transition from kind to mean when you hover over the home page. I used this to make the website more fun and engaging."
     },
     {
         "name": "Shamrock Hangman",
@@ -45,7 +45,7 @@
         "link": "https://ktsim88.github.io/MarchSite/",
         "site": "web4",
         "codePic": "imgs/hangmanCode.png",
-        "codeText": "lorem ipsum"
+        "codeText": "This is the code for the guessLetter function which is the main function for the game. This function takes in the user’s guess and checks if it is correct. If it is correct, it updates the current guesses and checks if the user has won. If it is incorrect, it updates the clover and checks if the user has lost. There is also a time out function to prevent the user from spamming guesses and breaking the game."
     },
     {
         "name": "Race to the Crown",
@@ -57,7 +57,7 @@
         "link": "https://ktsim88.github.io/AprilSite/",
         "site": "web5",
         "codePic": "imgs/rttcCode.png",
-        "codeText": "lorem ipsum"
+        "codeText": "This is the code for the submitResponse function which it checks to see if the user's response is correct. Answers are stored in an array and the function checks to see if the user's response is in the array. If it is correct, the user moves on to the next move. If it is incorrect, the user is notified and they will move onto the punishment wheel which user will be given a penalty."
     },
     {
         "name": "Cookie Run Kingdom Roster",
@@ -69,7 +69,7 @@
         "link": "https://ktsim88.github.io/MaySite/",
         "site": "web6",
         "codePic": "imgs/crkCode.png",
-        "codeText": "lorem ipsum"
+        "codeText": "This is the code for each card where it stores information about each Cookie in an object. This was the first time using objects to store information and it made it so much easier to create the cards because I did not have to hard-code each card. I just had to create a new object for each cookie and then push that object into an array. I then used a for loop to loop through the array and create the HTML for each card. I ended up making a total of 72 cards and it was great to not have to hard-code each card and just use objects to store the information."
     },
     {
         "name": "Rutgers Information Site",
@@ -81,7 +81,7 @@
         "link": "https://ktsim88.github.io/collegeRecruitment/",
         "site": "web7",
         "codePic": "imgs/rutgersCode.png",
-        "codeText": "lorem ipsum"
+        "codeText": "This is the code for the function that opens the extracurriculars page when the user clicks on the extracurriculars button. When user clicks on the button, it will open a page and remove stuff that is not relevant to the extracurriculars page."
     },
     {
         "name": "Course Planner",
@@ -93,7 +93,7 @@
         "link": "https://shagan742.github.io/CoursePlanner/",
         "site": "web8",
         "codePic": "imgs/coursePlannerCode.png",
-        "codeText": "lorem ipsum"
+        "codeText": "This is the code that filters all the courses available based on the user's preferences. If it has the same major, it will show up. If it has the same subject, it will show up. If it has the same level, it will show up. The user can see all the courses they can take and the next page will allow user to select courses and create a schedule based on the courses that were filtered."
     },
     {
         "name": "stwabewee",
@@ -105,6 +105,6 @@
         "link": "https://ktsim88.github.io/stwabewee/",
         "site": "web9",
         "codePic": "imgs/stwabeweeCode.png",
-        "codeText": "lorem ipsum"
+        "codeText": "This is code for the home page where she showed off some of her work and had a hero image. I used Vue.js to generate those images."
     }
 ]

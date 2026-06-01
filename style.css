@@ -1,6 +1,9 @@
 /* general whole website styling (background, etc.) */
 body {
     background-color: #C2DCFF;
+    font-family: "baga", sans-serif;
+font-weight: 400;
+font-style: normal;
 }
 .btn {
     font-family: "letter-gothic-recast", sans-serif;
