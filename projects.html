@@ -89,7 +89,7 @@
           <div class="col-md-10 col-sm-12"  v-if="currentSection === 'web'" id="webProjects">
             <!-- Project icons, will be generated using vue later -->
 
-<a class="btn zeroniBtn" role="button" v-for="zeroniIcon in zeroniIcons" @click="openWebsiteShowcase(zeroniIcon.site)">
+<a class="btn zeroniBtn" role="button" v-for="zeroniIcon in zeroniIcons" @click="openWebsiteShowcase(zeroniIcon.site)" v-fade-on-scroll>
   
   <div class="zeroniCard mt-3">
   <img :src="zeroniIcon.zeroni" class="card-img-top zeroniPics" alt="...">
@@ -108,9 +108,9 @@
           <div class="col-md-10 col-sm-12"  v-if="currentSection === 'other'" id="otherProjects">
 
 
-            <h2 class="my-3">My Zeroni Emotional Supports</h2>
-            <img src="imgs/ZeroniGang2.JPEG" alt="" width="50%" class="my-3 rounded-3 zeroniFamily img-fluid">
-            <p class="mx-5 my-3 p-3 info mb-5">
+            <h2 class="my-3" v-fade-on-scroll>My Zeroni Emotional Supports</h2>
+            <img src="imgs/ZeroniGang2.JPEG" alt="" width="50%" class="my-3 rounded-3 zeroniFamily img-fluid" v-fade-on-scroll>
+            <p class="mx-5 my-3 p-3 info mb-5" v-fade-on-scroll>
               “Zeronis” are the animal mascots of the members of my favorite group, Zerobaseone. These Zeronis are part of the marketing through Line Friends and they make plushies of these mascots. I started making them in March 2025 and finished them in February 2026. I started them when I was learning to sew other mini stuffed animals. I realized that one of the felt colors looked like the ones from my favorite Zeroni. I make these animals in my free time and I enjoy the process of making them.
 
             </p>
@@ -123,14 +123,14 @@
         <button type="button"  class="btn btn-danger position-absolute top-0 end-0 close me-2" style="border-radius: 1000px;" @click="closeWebsiteShowcase()">Close</button>
         
         <div class="row my-3 p-5 d-none websiteRows mx-5" v-for="project in websites" :key="project.id" :id="project.site">
-          <h1 class="my-3">{{ project.name }}</h1>
-          <b>
+          <h1 class="my-3" v-fade-on-scroll>{{ project.name }}</h1>
+          <b v-fade-on-scroll>
                 Completed in Grade {{ project.grade }}.
               </b>
           
           
           <div class="col-md-6 col-sm-12 my-auto d-flex flex-column align-items-center justify-content-center p-3">
-            <div :id="project.id" class="carousel slide" data-bs-ride="carousel">
+            <div :id="project.id" class="carousel slide" data-bs-ride="carousel" v-fade-on-scroll>
               
               <div class="carousel-inner" role="listbox">
                 <div class="carousel-item active">
@@ -180,32 +180,32 @@
             
           </div>
           <div class="col-md-6 col-sm-12 my-auto">
-            <h2>Overall</h2>
-            <p class="info p-3">
+            <h2 v-fade-on-scroll>Overall</h2>
+            <p class="info p-3" v-fade-on-scroll>
               {{ project.description }}
             </p>
             
           </div>
           <div class="col-12">
             <div class="row">
-            <h2 class="my-3">Code</h2>
+            <h2 class="my-3" v-fade-on-scroll>Code</h2>
             <div class="col-md-6 col-sm-12 my-auto">
               <img :src="project.codePic" alt="" class="w-100 codePic">
             </div>
             <div class="col-md-6 col-sm-12 my-auto">
-              <p class="info p-3 mt-3">
+              <p class="info p-3 mt-3" v-fade-on-scroll>
                 {{ project.codeText }}
               </p>
             </div>
           </div>
           </div>
           
-          <h2 class="my-3">Improvements</h2>
-            <p class="info p-3">
+          <h2 class="my-3" v-fade-on-scroll>Improvements</h2>
+            <p class="info p-3" v-fade-on-scroll>
               <!-- Add improvement details here -->
               {{ project.improvements }}
             </p>
-          <button type="button" class="btn my-3" @click="openWebsite(project.link)">
+          <button type="button" class="btn my-3" @click="openWebsite(project.link)" v-fade-on-scroll>
             View Project
           </button>
         </div>
