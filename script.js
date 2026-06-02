@@ -45,8 +45,8 @@ const app = Vue.createApp({
 //from copilot, modified by me
       // hide all projects
       this.websites.forEach(p => {
-        const el = document.getElementById(p.site);
-        if (el) el.classList.add('d-none');
+        const el = document.getElementById(p.site);//p.site is the id of the project element in the HTML
+        if (el) el.classList.add('d-none');//if the element exists, add the 'd-none' class to hide it
       });
     },
     openWebsiteShowcase(site) {
@@ -58,15 +58,15 @@ const app = Vue.createApp({
 //from chatgpt, modified by me
   // hide all projects first
   this.websites.forEach(p => {
-    const el = document.getElementById(p.site);
-    if (el) el.classList.add('d-none');
+    const el = document.getElementById(p.site);//p.site is the id of the project element in the HTML
+    if (el) el.classList.add('d-none');//if the element exists, add the 'd-none' class to hide it
   });
 
   // show selected project
-  const project = this.websites.find(p => p.site === site);
+  const project = this.websites.find(p => p.site === site); //find the project in the websites array that matches the selected site
   if (project) {
-    const projectElement = document.getElementById(project.site);
-    projectElement.classList.remove('d-none');
+    const projectElement = document.getElementById(project.site); //get the element of the selected project using its id
+    projectElement.classList.remove('d-none');//remove the 'd-none' class to show the selected project
   }
 }
   },
@@ -80,7 +80,7 @@ const app = Vue.createApp({
 
         const observer = new IntersectionObserver(([entry]) => { //observes for user scrolling upon said element
           if (entry.isIntersecting) {
-            el.style.opacity = '1';
+            el.style.opacity = '1';//make these styles apply if user scrolled upon element
             el.style.transform = 'translateY(0)'; //make these styles apply if user scrolled upon element
             observer.unobserve(el); //leave element alone after, making it not fade-in again and again
           }
@@ -95,7 +95,7 @@ const app = Vue.createApp({
   sliderStyle() {
 // Calculate the percentage based on the current range and total journeys
     const percentage =
-      (this.currentRange / (this.journeys.length - 1)) * 100;
+      (this.currentRange / (this.journeys.length - 1)) * 100; //this.journeys.length - 1 because the range starts at 0, so we need to subtract 1 to get the correct percentage
 // Return the style object for the slider background
     return {
       background: `linear-gradient(
@@ -105,7 +105,7 @@ const app = Vue.createApp({
         #E5E7EB ${percentage}%,
         #E5E7EB 100%
       )`
-    };
+    }; //the first color is the filled portion, the second color is the unfilled portion
   }
 }
 })
