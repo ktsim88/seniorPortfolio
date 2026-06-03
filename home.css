@@ -1,13 +1,57 @@
 body {
     background: radial-gradient(circle, #9ac6ffc9 50%, #0c75ff79 100%);
 }
+/* HERO SECTION */
 
-img {
-    border-radius: 10px;
+main {
+    min-height: 85vh;
+}
+
+.hero-text {
+    font-size: 1.1rem;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+/* PROJECT BUTTON */
+
+.hero-btn {
+    background-color: #ffafcc;
+    padding: 12px 24px;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+
+.hero-btn:hover {
+    transform: translateY(-3px);
+}
+
+/* FLOATING ANIMATION */
+
+.floating {
+    animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-12px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+/* ALL IMAGES HOVER */
+
+main img {
     transition: transform 0.3s ease;
 }
-img:hover {
-    transform: matrix(1.2, 0, 0, 1.05, 4, -5);
-    transition: transform 0.3s ease;
-    transform-origin: center;
+
+main img:hover {
+    transform: scale(1.05);
 }
